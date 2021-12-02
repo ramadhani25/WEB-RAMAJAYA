@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary: #191A19;
+    --secondary: #1E5128;
+    --accent: #4E9F3D;
+    --text: #D8E9A8;
+    --white: #F0F0F0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+.btn-primary{
+    background-color: var(--text);
+    border: none;
+    color: var(--primary);
+}
+
+.btn-primary:hover{
+    background-color: #b5c48c;
+    border: none;
+    color: black;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-secondary:hover {
+    border: 1px solid white;
+    background-color: var(--primary);
+    color: white;
+}
+
+.RJ-Putih {
+    width: 180px;
+}
+
+.RJ-Hitam {
+    width: 180px;
+}
+
+
+/* NAVBAR */
+.navbar {
+    background-color: var(--primary);
+}
+
+a.nav-link {
+    color: white !important;
+    padding: 5px 0 !important;
+}
+
+a.nav-link:hover {
+    color: var(--text) !important;
+}
+
+a.nav-link.active {
+    color: var(--text) !important;
+}
+
+.nav-item {
+    margin: 3px 10px;
+}
+
+.nav-item a {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
+/* HERO */
+.hero {
+    background: url('../Assets/BG-Header.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .container {
+    min-height: 500px;
+}
+
+.hero-text {
+    color: white;
+    text-align: center;
+}
+
+.hero-text h1 {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.hero-text h3 {
+    font-weight: 300;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-btn a {
+    margin: 70px 10px 0px;
+}
+
+.hero-btn .btn-kontak{
+    padding: 7px 40px;
+    border-radius: 25px;
+    font-size: 1.4rem;
+}
+
+.hero-btn .btn-produk{
+    padding: 7px 40px;
+    border-radius: 25px;
+    font-size: 1.4rem;
+}
+
+/* ABOUT */
+.about {
+    background-color: var(--white);
+}
+
+.about .container {
+    min-height: 600px;
+}
+
+.about .container .about-text{
+    text-align: justify;
+    padding: 23px;
+}
+
+.about-img {
+    padding: 23px;
+    text-align: center;
+}
+
+.IMG-About {
+    width: 350px;
+}
+
+.btn-about {
+    padding: 10px 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+}
+
+
+/* LOCATION */
+.location {
+    background: url('../Assets/BG-Lokasi.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.location .container {
+    min-height: 300px;
+    text-align: justify;
+}
+
+.location .location-text {
+    color: var(--white);
+    text-shadow: 2px 2px 5px rgba(0,0,0,1);
+}
+
+.location .location-btn {
+    padding: 10px 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+}
+
+
+/* PRODUCT */
+.product {
+    background: var(--white);
+}
+
+.product .product-container {
+    min-height: 600px;
+    padding-top: 20px;
+}
+
+.title-section {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.list-product a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: var(--text);
+    width: 150px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 17px;
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.25);
+    margin: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+.card:hover {
+    filter:brightness(0.8);
+    transition: 0.3s;
+}
+
+.card img {
+    width: 120px;
+}
+
+.card p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: var(--primary);
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+
+/* CONTACT */
+.contact {
+    background: var(--white);
+    padding-top: 20px;
+}
+
+.contact .container {
+    min-height: 200px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.contact a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* FOOTER */
+footer {
+    background: var(--primary);
+}
+
+footer .container {
+    min-height: 200px;
+    font-size: 0.8rem;
+}
+
+footer .container p{
+    color: white;
+}
+
+footer .container p a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .container-fluid {
+    min-height: 30px;
+    background: black;
+}
+
+footer .container-fluid p{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+/* PAGE - PRODUK */
+
+.hero2 {
+    background: url('../Assets/BG-Header2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.hero2 .container {
+    min-height: 300px;
+}
+
+.hero2 .container .col {
+    color: white;
+}
+
+.breadcrumb-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active{
+    color: var(--text);
+}
+
+.breadcrumb-item.active::before{
+    color: white;
+}
+
+
+/* PRODUCT-CONTENT */
+.product-content {
+    background: white;
+    min-height: auto;
+}
+
+.product-content .container {
+    padding: 30px 5px;
+}
+
+.category {
+    text-align: center;
+    background-color: var(--text);
+    border-radius: 10px;
+}
+
+.category-title {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.category ul {
+    padding: 0;
+    margin: 0;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.category li {
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 10px;
+    list-style: none;
+}
+
+.category li a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.category li a.active {
+    color: var(--accent);
+}
+
+.category-list ul{
+    padding: 0;
+    margin: 0;
+}
+
+.category-list li{
+    list-style: none;
+}
+
+.category-list li a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.category-list li a.active{
+    color: var(--accent);
+}
+
+
+/* CONTACT */
+.contact2 {
+    background: white;
+}
+
+
+/* PAGE - KONTAK */
+.page-contact .container {
+    padding: 30px 5px;
+}
+
+.page-contact .container input{
+    margin: 5px 0;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: var(--white);
+    font-size: 1rem;
+    padding: 7px 9px;
+}
+
+
+.btn-input {
+    background-color: var(--text) !important;
+    width: 15% !important;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+.btn-input:hover {
+    background-color: #a8b682 !important;
+    transition: 0.3s;
+}
+
+
+/* PAGE - ABOUT */
+.page-about .container {
+    padding: 30px 5px;
+    text-align: justify;
+}
