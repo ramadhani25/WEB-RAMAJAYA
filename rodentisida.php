@@ -1,3 +1,14 @@
+<?php
+
+include('./help/DB.php');
+
+$d = DB::query('SELECT * FROM barang WHERE id_jenis_brg=4 ORDER BY nama_brg');
+$d2 = DB::query('SELECT * FROM jenis_barang');
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +24,7 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="./index.html"><img class="RJ-Putih" src="./Assets/RJ-Putih.png" alt=""></a>
+            <a class="navbar-brand" href="./index.php"><img class="RJ-Putih" src="./Assets/RJ-Putih.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,16 +32,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Beranda</a>
+                        <a class="nav-link" href="./index.php">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./produk.html">Produk</a>
+                        <a class="nav-link active" href="./produk.php">Produk</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Kontak</a>
+                        <a class="nav-link" href="./kontak.php">Kontak</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./tentangKami.html">Tentang Kami</a>
+                        <a class="nav-link" href="./tentangKami.php">Tentang Kami</a>
                     </li>
                 </ul>
             </div>
@@ -42,13 +53,13 @@
             <div class="row">
                 <div class="col pb-5 ps-5">
                     <h1>
-                        KONTAK
+                        PRODUK
                     </h1>
                     <div>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                              <li class="breadcrumb-item"><a href="./index.html">Beranda</a></li>
-                              <li class="breadcrumb-item active" aria-current="page">Kontak</li>
+                              <li class="breadcrumb-item"><a href="./index.php">Beranda</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">Produk</li>
                             </ol>
                           </nav>
                     </div>
@@ -57,22 +68,39 @@
         </div>
     </header>
 
-    <section class="page-contact">
+    <section class="product-content">
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <h2>
-                        <b>KONTAK</b>
-                    </h2>
-                    <p>Silahkan hubungi kami melalui form berikut.</p>
-                    <hr width="40px">
-                    <form action="" class="d-flex flex-column justify-content-center align-items-center">
-                        <input type="text" name="nama" id="" placeholder="Nama Lengkap*">
-                        <input type="email" name="email" id="" placeholder="Email*">
-                        <input type="text" name="telepon" id="" placeholder="Telephone*">
-                        <input type="text" name="pesan" id="" placeholder="Pesan*">
-                        <input class="btn-input" type="submit" value="Kirim">
-                    </form>
+                <div class="col-md-3 d-flex flex-column d-none d-md-block">
+                    <div class="category">
+                        <div class="category-title">
+                            Kategori Produk
+                        </div>
+                        <ul>
+                            <?php foreach ($d2 as $data) { ?>
+                                <li><a class="<?php if($data['nama_alt'] == 'rodentisida') { echo 'active';} ?>" href="<?php echo $data['nama_alt'] . '.php'?> "><?php echo $data['nama_jenis_brg'] ?></a></li>
+                            <?php } ?>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 d-block d-md-none category-list">
+                    <ul class="d-flex flex-wrap justify-content-center">
+                        <?php foreach ($d2 as $data) { ?>
+                            <li class="py-3 px-3"><a class="<?php if($data['nama_alt'] == 'rodentisida') { echo 'active';} ?>" href="<?php echo $data['nama_alt'] . '.php'?> "><?php echo $data['nama_jenis_brg'] ?></a></li>
+                        <?php } ?>
+                    </ul>
+                </div>
+                <div class="col list-product d-flex flex-wrap justify-content-center justify-content-sm-start">
+                    <?php foreach ($d as $data) { ?>
+                        <div class="card">
+                            <img src="./Assets/barang/<?php echo $data['img_brg']; ?>" alt="">
+                            <p>
+                                <?php echo $data['nama_brg']; ?>
+                                <br>
+                                Rp. <?php echo $data['harga_brg']; ?>
+                            </p>
+                        </div>
+                    <?php } ?>
                 </div>
             </div>
         </div>
@@ -143,9 +171,9 @@
                 <div class="col-sm-2 d-flex flex-column justify-content-start align-items-center my-3">
                     <p>BANTUAN</p>
                     <div>
-                        <p><a href="./tentangKami.html" target="_blank">Tentang Kami</a></p>
-                        <p><a href="./produk.html" target="_blank">Produk</a></p>
-                        <p><a href="./kontak.html" target="_blank">Kontak Kami</a></p>
+                        <p><a href="./tentangKami.php" target="_blank">Tentang Kami</a></p>
+                        <p><a href="./produk.php" target="_blank">Produk</a></p>
+                        <p><a href="./kontak.php" target="_blank">Kontak Kami</a></p>
                     </div>
                 </div>
             </div>

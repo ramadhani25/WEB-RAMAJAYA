@@ -24,13 +24,13 @@
                         <a class="nav-link active" href="#">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./produk.html">Produk</a>
+                        <a class="nav-link" href="./produk.php">Produk</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./kontak.html">Kontak</a>
+                        <a class="nav-link" href="./kontak.php">Kontak</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./tentangKami.html">Tentang Kami</a>
+                        <a class="nav-link" href="./tentangKami.php">Tentang Kami</a>
                     </li>
                 </ul>
             </div>
@@ -52,10 +52,10 @@
             </div>
             <div class="row">
                 <div class="col hero-btn">
-                    <a href="./kontak.html" class="btn btn-primary btn-kontak">
+                    <a href="./kontak.php" class="btn btn-primary btn-kontak">
                         Kontak
                     </a>
-                    <a href="./produk.html" class="btn btn-secondary btn-produk">Produk</a>
+                    <a href="./produk.php" class="btn btn-secondary btn-produk">Produk</a>
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
                         </div>
                         <br>
                         <div class="col">
-                            <a href="./tentangKami.html" class="btn btn-primary btn-about">Selengkapnya</a>
+                            <a href="./tentangKami.php" class="btn btn-primary btn-about">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -204,7 +204,7 @@
             </div>
             <div class="row">
                 <div class="col d-flex justify-content-center m-5">
-                    <a href="./produk.html" class="btn btn-primary btn-about">Selengkapnya</a>
+                    <a href="./produk.php" class="btn btn-primary btn-about">Selengkapnya</a>
                 </div>
             </div>
         </div>
@@ -275,9 +275,9 @@
                 <div class="col-sm-2 d-flex flex-column justify-content-start align-items-center my-3">
                     <p>BANTUAN</p>
                     <div>
-                        <p><a href="./tentangKami.html" target="_blank">Tentang Kami</a></p>
-                        <p><a href="./produk.html" target="_blank">Produk</a></p>
-                        <p><a href="./kontak.html" target="_blank">Kontak Kami</a></p>
+                        <p><a href="./tentangKami.php" target="_blank">Tentang Kami</a></p>
+                        <p><a href="./produk.php" target="_blank">Produk</a></p>
+                        <p><a href="./kontak.php" target="_blank">Kontak Kami</a></p>
                     </div>
                 </div>
             </div>

@@ -218,7 +218,7 @@ a.nav-link.active {
     width: 150px;
     height: 210px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     align-items: center;
     border-radius: 17px;
@@ -231,14 +231,16 @@ a.nav-link.active {
 .card:hover {
     filter:brightness(0.8);
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .card img {
     width: 120px;
+    border-radius: 50%;
 }
 
 .card p {
-    margin-top: 20px;
+    padding: 5px;
     margin-bottom: 0;
     font-weight: 600;
     color: var(--primary);
