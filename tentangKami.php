@@ -66,10 +66,26 @@
                     </h2>
                     <hr width="40px">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida adipiscing vulputate lorem gravida elit. Sit turpis morbi vel lobortis. Elementum integer etiam consectetur fermentum hac vitae. Iaculis cursus fusce amet ut aliquam malesuada purus, scelerisque pellentesque.
+                        Ramajaya berdiri sejak tahun 2006 di Metro Kibang, Lampung Timur. Ramajaya hadir untuk memasarkan berbagai jenis produk pertanian seperti pupuk, ragam pestisida, serta alat pertanian lainnya. Produk yang ada di Ramajaya merupakan produk untuk memenuhi kebutuhan dari tanaman pangan, holtikultura, hingga perkebunan. Selain itu, produknya dapat dipesan secara grosir untuk dijual kembali maupun secara eceran. Kami menawarkan berbagai produk pertanian untuk meningkatkan kualitas tanaman anda.
                     </p>
                     <p>
-                        Odio duis faucibus ac imperdiet rhoncus, semper amet, in id. Placerat leo fringilla id nullam libero. Suspendisse quam velit fames sed. Tellus erat non mollis et blandit at arcu. Laoreet nulla tellus lacinia suspendisse libero ultricies mauris ac. Urna quisque penatibus eu scelerisque sapien hendrerit adipiscing vitae nibh. Ut gravida posuere pellentesque eros, consectetur. Mattis hac pretium, posuere consectetur consequat neque ultrices pretium aliquam. Sed urna sit tristique cras justo, volutpat lectus vitae neque. Ultrices venenatis mus phasellus netus urna. Lectus blandit potenti nulla aenean neque cum.
+                        Sampai saat ini Ramajaya memiliki 1 toko utama, dan telah berdiri selama lebih dari 1 dekade, Oleh karena itu, Ramajaya akan selalu memberikan pelayanan terbaik untuk konsumen dan memberikan produk yang berkualitas tinggi sehingga meningkatkan nilai tambah serta manfaat dari kegiatan bisnis pertanian ini.
+                    </p>
+                    <br>
+                    <h2>
+                        <b>VISI</b>
+                    </h2>
+                    <hr width="40px">
+                    <p>
+                        Menjadi usaha dibidang pertanian yang unggul pada kualitas produk serta layanan terbaik kepada masyarakat dalam pemberdayaan di sektor agribisnis.
+                    </p>
+                    <br>
+                    <h2>
+                        <b>MISI</b>
+                    </h2>
+                    <hr width="40px">
+                    <p>
+                        Mengelola usaha yang mengutamakan pemberdayaan dan kesejahteraan masyarakat tani, serta membangun kerjasama yang saling menguntungkan dengan masyarakat dan petani.
                     </p>
                 </div>
             </div>

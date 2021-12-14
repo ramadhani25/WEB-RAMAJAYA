@@ -35,7 +35,7 @@ $d2 = DB::query('SELECT * FROM jenis_barang');
                         <a class="nav-link" href="./index.php">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./produk.php">Produk</a>
+                        <a class="nav-link active" href="#">Produk</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./kontak.php">Kontak</a>

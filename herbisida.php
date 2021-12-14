@@ -59,7 +59,8 @@ $d2 = DB::query('SELECT * FROM jenis_barang');
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                               <li class="breadcrumb-item"><a href="./index.php">Beranda</a></li>
-                              <li class="breadcrumb-item active" aria-current="page">Produk</li>
+                              <li class="breadcrumb-item"><a href="./produk.php">Produk</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">Herbisida</li>
                             </ol>
                           </nav>
                     </div>

@@ -53,8 +53,7 @@ $d2 = DB::query('SELECT * FROM jenis_barang');
                         Distributor Obat, Pupuk, & Alat Pertanian
                     </h1>
                     <h3>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
-                        venenatis, lectus magna fringilla urna, porttitor.
+                        Ramajaya menyediakan berbagai jenis pupuk, pestisida, dan alat-alat pertanian untuk tanaman pangan, hortikultura, dan perkebunan.
                     </h3>
                 </div>
             </div>
@@ -79,28 +78,11 @@ $d2 = DB::query('SELECT * FROM jenis_barang');
                         </div>
                         <br>
                         <div class="col">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis odio elit et magna
-                                mauris
-                                tellus elementum. Netus est nam eget urna volutpat faucibus. Sit urna, amet auctor proin
-                                sit
-                                lectus adipiscing gravida. Non egestas enim erat mauris id. Varius amet amet nulla nisi
-                                ut. Quis
-                                nulla ultricies sed posuere ultrices quam felis rhoncus diam. Ac neque dignissim enim
-                                libero in
-                                consectetur bibendum sed. Tristique facilisis eget feugiat morbi facilisi. Vestibulum id
-                                eu
-                                cursus a in amet id lorem odio. Turpis condimentum nunc ac volutpat sed. Cursus quis
-                                egestas
-                                mollis et dictumst quam sit.
+                            <p>
+                                Ramajaya berdiri sejak tahun 2006 di Metro Kibang, Lampung Timur. Ramajaya hadir untuk memasarkan berbagai jenis produk pertanian seperti pupuk, ragam pestisida, serta alat pertanian lainnya. Produk yang ada di Ramajaya merupakan produk untuk memenuhi kebutuhan dari tanaman pangan, holtikultura, hingga perkebunan. Selain itu, produknya dapat dipesan secara grosir untuk dijual kembali maupun secara eceran. Kami menawarkan berbagai produk pertanian untuk meningkatkan kualitas tanaman anda.
                             </p>
                             <p>
-                                A nibh sed porta purus et. Nec nisl, fames tempor donec integer tincidunt at ullamcorper
-                                arcu.
-                                Nam vestibulum tempus volutpat sed neque. Purus pretium neque in vel risus. Cursus
-                                adipiscing
-                                cursus fermentum in arcu. Vestibulum adipiscing in id est suscipit in arcu purus est.
-                                Enim amet,
-                                feugiat mi lectus.
+                                Sampai saat ini Ramajaya memiliki 1 toko utama, dan telah berdiri selama lebih dari 1 dekade, Oleh karena itu, Ramajaya akan selalu memberikan pelayanan terbaik untuk konsumen dan memberikan produk yang berkualitas tinggi sehingga meningkatkan nilai tambah serta manfaat dari kegiatan bisnis pertanian ini.
                             </p>
                         </div>
                         <br>
@@ -117,16 +99,14 @@ $d2 = DB::query('SELECT * FROM jenis_barang');
     </section>
     
     <section class="location">
-        <div class="container d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-center">
             <div class="row">
                 <div class="col-md-4 location-text d-flex align-items-center justify-content-center my-4">
                     <h1>LOKASI</h1>
                 </div>
                 <div class="col-md-4 location-text d-flex align-items-center justify-content-center my-4">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis iaculis diam id etiam orci
-                        tincidunt tempus non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis iaculis
-                        diam id etiam orci tincidunt tempus non.
+                    Toko RAMAJAYA berlokasi di Jl. Raya Margototo, Desa Margototo, Kec. Metro Kibang, Kab. Lampung Timur, Prov. Lampung, Indonesia
                     </p>
                 </div>
                 <div class="col-md-4 d-flex align-items-center justify-content-center my-4">
