@@ -1,3 +1,11 @@
+<?php
+
+include('./help/DB.php');
+
+$d2 = DB::query('SELECT * FROM jenis_barang');
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -152,54 +160,14 @@
             <!-- List Produk -->
             <div class="row">
                 <div class="col list-product d-flex flex-wrap justify-content-evenly">
-                    <a href="">
-                        <div class="card">
-                            <img src="./Assets/Herbisida.jpg" alt="">
-                            <p>HERBISIDA</p>
-                        </div>                   
-                    </a>
-                    <a href="">
-                        <div class="card">
-                            <img src="./Assets/Fungisida.jpg" alt="">
-                            <p>FUNGISIDA</p>
-                        </div>                   
-                    </a>
-                    <a href="">
-                        <div class="card">
-                            <img src="./Assets/Insektisida.jpg" alt="">
-                            <p>INSEKTISIDA</p>
-                        </div>                   
-                    </a>
-                    <a href="">
-                        <div class="card">
-                            <img src="./Assets/Rodentisida.jpg" alt="">
-                            <p>RODENTISIDA</p>
-                        </div>                   
-                    </a>
-                    <a href="">
-                        <div class="card">
-                            <img src="./Assets/Moluskisida.jpg" alt="">
-                            <p>MOLUSKISIDA</p>
-                        </div>                   
-                    </a>
-                    <a href="">
-                        <div class="card">
-                            <img src="./Assets/Pupuk.jpg" alt="">
-                            <p>PUPUK</p>
-                        </div>                   
-                    </a>
-                    <a href="">
-                        <div class="card">
-                            <img src="./Assets/Bibit.jpg" alt="">
-                            <p>BIBIT</p>
-                        </div>                   
-                    </a>
-                    <a href="">
-                        <div class="card">
-                            <img src="./Assets/Sprayer.jpg" alt="">
-                            <p>SPRAYER</p>
-                        </div>                   
-                    </a>
+                    <?php foreach ($d2 as $data) { ?>
+                        <a href="<?php echo $data['nama_alt'] . '.php'?> ">
+                            <div class="card">
+                                <img src="<?php echo './Assets/' . $data['nama_jenis_brg'] . '.jpg'?>" alt="">
+                                <p style="text-transform:uppercase;"><?php echo $data['nama_jenis_brg']; ?></p>
+                            </div>                   
+                        </a>
+                    <?php } ?>
                 </div>
             </div>
             <div class="row">

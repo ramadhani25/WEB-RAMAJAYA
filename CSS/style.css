@@ -215,7 +215,7 @@ a.nav-link.active {
 
 .card {
     background-color: var(--text);
-    width: 150px;
+    width: 140px;
     height: 210px;
     display: flex;
     justify-content: space-evenly;
