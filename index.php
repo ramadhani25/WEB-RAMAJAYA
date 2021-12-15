@@ -17,6 +17,7 @@ $d2 = DB::query('SELECT * FROM jenis_barang');
     <link rel="shortcut icon" href="./Assets/icon-leaf.png" type="image/x-icon">
     <link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/f33a166ca9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -243,7 +244,6 @@ $d2 = DB::query('SELECT * FROM jenis_barang');
     </footer>
     
     <script src="./js/bootstrap.js"></script>
-    <script src="https://kit.fontawesome.com/386e6055da.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
